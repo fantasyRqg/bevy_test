@@ -3,6 +3,10 @@ name = "bevy_test"
 version = "0.1.0"
 edition = "2024"
 
+[[example]]
+name = "cube_stress"
+path = "examples/cube_stress.rs"
+
 [dependencies]
 bevy = { version = "0.17.3", features = ["dynamic_linking"] }
 rand = "0.9"
