@@ -7,6 +7,10 @@ edition = "2024"
 name = "cube_stress"
 path = "examples/cube_stress.rs"
 
+[[example]]
+name = "sprite_stress"
+path = "examples/sprite_stress.rs"
+
 [dependencies]
 bevy = { version = "0.17.3", features = ["dynamic_linking"] }
 rand = "0.9"
